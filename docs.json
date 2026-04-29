@@ -127,5 +127,8 @@
   "appearance": {
     "strict": false,
     "default": "system"
+  },
+  "styling": {
+    "latex": false
   }
 }
