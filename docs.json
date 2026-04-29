@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "HYPRR | Документация",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#E2D186",
+    "light": "#E2D186",
+    "dark": "#E2D186"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -85,7 +85,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://hyprr.space"
   },
   "navbar": {
     "links": [
@@ -102,15 +103,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
@@ -122,5 +123,9 @@
       "github": "https://github.com/hyprrspace"
     }
   },
-  "description": "Простая и удобная документация для Вас"
+  "description": "Простая и удобная документация для Вас",
+  "appearance": {
+    "strict": false,
+    "default": "system"
+  }
 }
