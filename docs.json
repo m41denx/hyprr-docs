@@ -85,7 +85,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://hyprr.space"
   },
   "navbar": {
     "links": [
@@ -122,5 +123,9 @@
       "github": "https://github.com/hyprrspace"
     }
   },
-  "description": "Простая и удобная документация для Вас"
+  "description": "Простая и удобная документация для Вас",
+  "appearance": {
+    "strict": false,
+    "default": "system"
+  }
 }
