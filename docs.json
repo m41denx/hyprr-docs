@@ -7,7 +7,7 @@
     "light": "#E2D186",
     "dark": "#E2D186"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "global": {
       "anchors": [
@@ -84,9 +84,9 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
-    "href": "https://hyprr.space"
+    "light": "/logo/hyprr-engrave.svg",
+    "dark": "/logo/hyprr-engrave.svg",
+    "href": "https://docs.hyprr.space"
   },
   "navbar": {
     "links": [
@@ -97,8 +97,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "В HYPRR",
+      "href": "https://hyprr.space"
     }
   },
   "contextual": {
@@ -127,5 +127,8 @@
   "appearance": {
     "strict": false,
     "default": "system"
+  },
+  "styling": {
+    "latex": false
   }
 }
