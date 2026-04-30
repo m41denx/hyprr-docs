@@ -17,7 +17,7 @@
           "href": "https://mintlify.com/docs"
         },
         {
-          "anchor": "Blog",
+          "anchor": "Блог",
           "icon": "newspaper",
           "href": "https://mintlify.com/blog"
         }
@@ -31,7 +31,7 @@
             "group": "Начало Работы с HYPRR",
             "pages": [
               "index",
-              "quickstart",
+              "quickstart-copied-1",
               "development"
             ]
           },
