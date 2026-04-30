@@ -43,6 +43,7 @@
           },
           {
             "group": "Customization",
+            "hidden": true,
             "pages": [
               "essentials/settings",
               "essentials/navigation"
