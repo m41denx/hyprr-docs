@@ -19,7 +19,11 @@
         {
           "anchor": "Блог",
           "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
+          "color": {
+            "light": "#E2D186",
+            "dark": "#E2D186"
+          },
+          "href": "https://blog.hyprr.space"
         }
       ]
     },
