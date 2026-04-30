@@ -12,11 +12,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
           "anchor": "Блог",
           "icon": "newspaper",
           "color": {
