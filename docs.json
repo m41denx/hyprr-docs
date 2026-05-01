@@ -72,7 +72,8 @@
                     "icon": "gear-complex",
                     "expanded": true,
                     "pages": [
-                      "plan"
+                      "plan",
+                      "change_plan_and_node"
                     ]
                   }
                 ]
