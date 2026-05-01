@@ -49,6 +49,7 @@
                   "console-and-control-server",
                   {
                     "group": "Файловый менеджер",
+                    "expanded": true,
                     "pages": [
                       "file-manager",
                       "backup",
