@@ -28,18 +28,19 @@
         "groups": [
           {
             "group": "Начало Работы с HYPRR",
+            "icon": "star-christmas",
             "pages": [
               "index",
               "q-start",
               "billing",
-              "create-project-copied-1",
-              "development"
+              "billing-copied-1"
             ]
           },
           {
             "group": "Customization",
             "hidden": true,
             "pages": [
+              "development",
               "essentials/settings",
               "essentials/navigation"
             ]
