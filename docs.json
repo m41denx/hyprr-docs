@@ -22,113 +22,118 @@
         }
       ]
     },
-    "tabs": [
+    "languages": [
       {
-        "tab": "Документация",
-        "groups": [
+        "language": "ru",
+        "tabs": [
           {
-            "group": "Начало Работы с HYPRR",
-            "icon": "star-christmas",
-            "pages": [
-              "index",
-              "q-start",
-              "billing",
-              "create-project"
-            ]
-          },
-          {
-            "group": "Minecraft сервера",
-            "icon": "cube",
-            "pages": [
-              "create-server",
+            "tab": "Документация",
+            "groups": [
               {
-                "group": "Управление сервером",
-                "icon": "server",
-                "expanded": true,
+                "group": "Начало Работы с HYPRR",
+                "icon": "star-christmas",
                 "pages": [
-                  "control",
-                  "console-and-control-server",
+                  "index",
+                  "q-start",
+                  "billing",
+                  "create-project"
+                ]
+              },
+              {
+                "group": "Minecraft сервера",
+                "icon": "cube",
+                "pages": [
+                  "create-server",
                   {
-                    "group": "Файловый менеджер",
-                    "icon": "folder",
+                    "group": "Управление сервером",
+                    "icon": "server",
                     "expanded": true,
                     "pages": [
-                      "file-manager",
-                      "backup",
-                      "s-ftp"
-                    ]
-                  },
-                  {
-                    "group": "Сеть & домены",
-                    "icon": "planet-ringed",
-                    "expanded": true,
-                    "pages": [
-                      "network",
-                      "domain"
-                    ]
-                  },
-                  "modrinth",
-                  {
-                    "group": "Настройки",
-                    "icon": "gear-complex",
-                    "expanded": true,
-                    "pages": [
-                      "plan",
-                      "change_plan_and_node",
-                      "startup-command-and-varibls"
+                      "control",
+                      "console-and-control-server",
+                      {
+                        "group": "Файловый менеджер",
+                        "icon": "folder",
+                        "expanded": true,
+                        "pages": [
+                          "file-manager",
+                          "backup",
+                          "s-ftp"
+                        ]
+                      },
+                      {
+                        "group": "Сеть & домены",
+                        "icon": "planet-ringed",
+                        "expanded": true,
+                        "pages": [
+                          "network",
+                          "domain"
+                        ]
+                      },
+                      "modrinth",
+                      {
+                        "group": "Настройки",
+                        "icon": "gear-complex",
+                        "expanded": true,
+                        "pages": [
+                          "plan",
+                          "change_plan_and_node",
+                          "startup-command-and-varibls"
+                        ]
+                      }
                     ]
                   }
+                ]
+              },
+              {
+                "group": "Customization",
+                "hidden": true,
+                "pages": [
+                  "development",
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Writing content",
+                "hidden": true,
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "AI tools",
+                "hidden": true,
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
                 ]
               }
             ]
           },
           {
-            "group": "Customization",
+            "tab": "API reference",
             "hidden": true,
-            "pages": [
-              "development",
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "hidden": true,
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "hidden": true,
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "hidden": true,
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "groups": [
+              {
+                "group": "API documentation",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
