@@ -88,6 +88,30 @@
                 ]
               },
               {
+                "group": "Базы данных",
+                "icon": "database",
+                "pages": [
+                  "create-app",
+                  {
+                    "group": "Управление БД",
+                    "icon": "server",
+                    "pages": [
+                      "control-db",
+                      "console-and-control-server-db",
+                      {
+                        "group": "Настройки",
+                        "icon": "gear-complex",
+                        "expanded": true,
+                        "pages": [
+                          "plan-db",
+                          "delete-or-renistall-db"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "group": "Аккаунт",
                 "icon": "user",
                 "expanded": true,
