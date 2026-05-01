@@ -41,8 +41,23 @@
             "icon": "cube",
             "pages": [
               "create-server",
-              "control",
-              "modrinth"
+              {
+                "group": "Управление сервером",
+                "icon": "server",
+                "pages": [
+                  "control",
+                  "console-and-control-server",
+                  {
+                    "group": "Файловый менеджер",
+                    "pages": [
+                      "file-manager",
+                      "backup",
+                      "s-ftp"
+                    ]
+                  },
+                  "modrinth"
+                ]
+              }
             ]
           },
           {
