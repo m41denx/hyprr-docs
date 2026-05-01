@@ -98,6 +98,7 @@
                     "pages": [
                       "control-db",
                       "console-and-control-server-db",
+                      "backup-bd",
                       {
                         "group": "Настройки",
                         "icon": "gear-complex",

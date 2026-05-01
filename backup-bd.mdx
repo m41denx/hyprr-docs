@@ -3,9 +3,9 @@ title: "Бэкапы"
 icon: "floppy-disks"
 ---
 
-В панели HYPRR доступны удобные инструменты для создания и управления резервными копиями сервера.
+В панели HYPRR доступны удобные инструменты для создания и управления резервными копиями **баз данных**.
 
-Бэкапы позволяют сохранить текущее состояние сервера и быстро восстановиться в случае ошибок, крашей или неудачных обновлений.
+Бэкапы позволяют сохранить текущее состояние базы данных и быстро восстановить её в случае ошибок, сбоев или неудачных изменений.
 
 ## Возможности бэкапов
 
@@ -16,16 +16,16 @@ icon: "floppy-disks"
 - **Скачивание бэкапа** - загрузите архив на свой компьютер
 - **Удаление бэкапов** - освобождение места при необходимости
 
-## Восстановление сервера
+## Восстановление базы данных
 
-Вы можете восстановить сервер из бэкапа буквально в один клик:
+Вы можете восстановить базу данных из бэкапа в один клик:
 
-- все файлы сервера будут заменены на состояние из бэкапа
+- все данные будут заменены на состояние из резервной копии
 - процесс занимает минимальное время
-- не требует ручной настройки
+- не требует дополнительной настройки
 
 <Warning>
-  При восстановлении текущие файлы сервера будут перезаписаны.
+  При восстановлении текущие данные базы данных будут перезаписаны.
 </Warning>
 
 ## Блокировка бэкапов
@@ -54,13 +54,26 @@ icon: "floppy-disks"
 <AccordionGroup>
   <Accordion title="Главная страница backups" icon="gear-complex-code">
     <Frame>
-      ![Backup Contanier#1](/images/backup-contanier#1.png)
+      ![Db Backup](/images/db-backup.png)
     </Frame>
   </Accordion>
 
   <Accordion title="Создание backups" icon="cloud-plus">
     <Frame>
-      ![create\_backup.png](/images/create_backup.png)
+      <img
+        alt="create_backup.png"
+        lightAlt="create_backup.png"
+        darkAlt="create_backup.png"
+        src="/images/db-create-backup.png"
+        className="dark:hidden"
+      />
+      <img
+        alt="create_backup.png"
+        lightAlt="create_backup.png"
+        darkAlt="create_backup.png"
+        src="/images/create_backup.png"
+        className="hidden dark:block"
+      />
     </Frame>
   </Accordion>
 </AccordionGroup>
