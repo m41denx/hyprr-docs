@@ -56,6 +56,15 @@
                       "s-ftp"
                     ]
                   },
+                  {
+                    "group": "Сеть & домены",
+                    "icon": "planet-ringed",
+                    "expanded": true,
+                    "pages": [
+                      "network",
+                      "domain"
+                    ]
+                  },
                   "modrinth"
                 ]
               }
