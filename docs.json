@@ -49,6 +49,7 @@
                   "console-and-control-server",
                   {
                     "group": "Файловый менеджер",
+                    "icon": "folder",
                     "expanded": true,
                     "pages": [
                       "file-manager",
@@ -65,7 +66,15 @@
                       "domain"
                     ]
                   },
-                  "modrinth"
+                  "modrinth",
+                  {
+                    "group": "Настройки",
+                    "icon": "gear-complex",
+                    "expanded": true,
+                    "pages": [
+                      "plan"
+                    ]
+                  }
                 ]
               }
             ]
