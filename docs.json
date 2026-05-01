@@ -49,7 +49,6 @@
                   {
                     "group": "Управление сервером",
                     "icon": "server",
-                    "expanded": true,
                     "pages": [
                       "control",
                       "console-and-control-server",
