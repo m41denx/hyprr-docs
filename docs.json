@@ -91,7 +91,8 @@
                 "icon": "user",
                 "expanded": true,
                 "pages": [
-                  "how-to-add-oauth-apps"
+                  "how-to-add-oauth-apps",
+                  "referal"
                 ]
               },
               {
