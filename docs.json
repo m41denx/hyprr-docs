@@ -99,6 +99,7 @@
                       "control-db",
                       "console-and-control-server-db",
                       "backup-bd",
+                      "create-useranddb",
                       {
                         "group": "Настройки",
                         "icon": "gear-complex",
@@ -107,8 +108,7 @@
                           "plan-db",
                           "delete-or-renistall-db"
                         ]
-                      },
-                      "create-useranddb"
+                      }
                     ]
                   }
                 ]
