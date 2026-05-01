@@ -160,8 +160,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/hyprr-engrave.svg",
-    "dark": "/logo/hyprr-engrave.svg",
+    "light": "/logo/hyprr_space.png",
+    "dark": "/logo/hyprr_space.png",
     "href": "https://docs.hyprr.space"
   },
   "navbar": {
