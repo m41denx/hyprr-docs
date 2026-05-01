@@ -40,7 +40,8 @@
             "group": "Minecraft сервера",
             "icon": "cube",
             "pages": [
-              "create-server"
+              "create-server",
+              "control"
             ]
           },
           {
