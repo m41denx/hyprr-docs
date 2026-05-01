@@ -1,0 +1,176 @@
+---
+title: "Создание БД и Пользователя"
+icon: "code"
+---
+
+## Параметры
+
+- `dbname` — имя базы данных
+- `user` — имя пользователя
+- `password` — пароль
+- `newpassword` — новый пароль
+
+## Создание пользователя
+
+<CodeGroup>
+
+```sql PostgreSQL
+CREATE USER {{user}} WITH PASSWORD '{{password}}';
+```
+
+```sql MariaDB
+CREATE USER '{{user}}'@'%' IDENTIFIED BY '{{password}}';
+```
+
+```javascript MongoDB
+db.createUser({
+  user: "{{user}}",
+  pwd: "{{password}}",
+  roles: [{ role: "root", db: "admin" }]
+})
+```
+
+```bash Redis
+ACL SETUSER {{user}} on >{{password}} ~* +@all
+```
+
+</CodeGroup>
+
+## Создание базы данных
+
+<CodeGroup>
+
+```sql PostgreSQL
+CREATE DATABASE {{dbname}} OWNER {{user}};
+```
+
+```sql MariaDB
+CREATE DATABASE {{dbname}};
+```
+
+```javascript MongoDB
+use {{dbname}}
+```
+
+```bash Redis
+# Redis не использует базы как SQL (логические DB 0-15)
+```
+
+</CodeGroup>
+
+## Выдать ВСЕ права на БД
+
+<CodeGroup>
+
+```sql PostgreSQL
+GRANT ALL PRIVILEGES ON DATABASE {{dbname}} TO {{user}};
+```
+
+```sql MariaDB
+GRANT ALL PRIVILEGES ON {{dbname}}.* TO '{{user}}'@'%';
+FLUSH PRIVILEGES;
+```
+
+```javascript MongoDB
+db.grantRolesToUser("{{user}}", [
+  { role: "dbOwner", db: "{{dbname}}" }
+])
+```
+
+```bash Redis
+ACL SETUSER {{user}} on >{{password}} ~* +@all
+```
+
+</CodeGroup>
+
+## Забрать все права
+
+<CodeGroup>
+
+```sql PostgreSQL
+REVOKE ALL PRIVILEGES ON DATABASE {{dbname}} FROM {{user}};
+```
+
+```sql MariaDB
+REVOKE ALL PRIVILEGES ON {{dbname}}.* FROM '{{user}}'@'%';
+FLUSH PRIVILEGES;
+```
+
+```javascript MongoDB
+db.revokeRolesFromUser("{{user}}", [
+  { role: "dbOwner", db: "{{dbname}}" }
+])
+```
+
+```bash Redis
+ACL SETUSER {{user}} off
+```
+
+</CodeGroup>
+
+## Удалить пользователя
+
+<CodeGroup>
+
+```sql PostgreSQL
+DROP USER {{user}};
+```
+
+```sql MariaDB
+DROP USER '{{user}}'@'%';
+```
+
+```javascript MongoDB
+db.dropUser("{{user}}")
+```
+
+```bash Redis
+ACL DELUSER {{user}}
+```
+
+</CodeGroup>
+
+## Удалить базу данных
+
+<CodeGroup>
+
+```sql PostgreSQL
+DROP DATABASE {{dbname}};
+```
+
+```sql MariaDB
+DROP DATABASE {{dbname}};
+```
+
+```javascript MongoDB
+use {{dbname}}
+db.dropDatabase()
+```
+
+```bash Redis
+# Redis: не применяется
+```
+
+</CodeGroup>
+
+## Изменить пароль
+
+<CodeGroup>
+
+```sql PostgreSQL
+ALTER USER {{user}} WITH PASSWORD '{{newpassword}}';
+```
+
+```sql MariaDB
+ALTER USER '{{user}}'@'%' IDENTIFIED BY '{{newpassword}}';
+```
+
+```javascript MongoDB
+db.changeUserPassword("{{user}}", "{{newpassword}}")
+```
+
+```bash Redis
+ACL SETUSER {{user}} >{{newpassword}}
+```
+
+</CodeGroup>

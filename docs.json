@@ -107,7 +107,8 @@
                           "plan-db",
                           "delete-or-renistall-db"
                         ]
-                      }
+                      },
+                      "create-useranddb"
                     ]
                   }
                 ]
