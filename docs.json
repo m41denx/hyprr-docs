@@ -73,7 +73,8 @@
                     "expanded": true,
                     "pages": [
                       "plan",
-                      "change_plan_and_node"
+                      "change_plan_and_node",
+                      "startup-command-and-varibls"
                     ]
                   }
                 ]
