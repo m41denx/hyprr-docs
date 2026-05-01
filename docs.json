@@ -83,15 +83,15 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "group": "Аккаунт",
-                    "icon": "user",
-                    "expanded": true,
-                    "pages": [
-                      "how-to-add-oauth-apps"
-                    ]
                   }
+                ]
+              },
+              {
+                "group": "Аккаунт",
+                "icon": "user",
+                "expanded": true,
+                "pages": [
+                  "how-to-add-oauth-apps"
                 ]
               },
               {
