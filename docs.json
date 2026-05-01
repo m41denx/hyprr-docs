@@ -174,8 +174,8 @@
   },
   "description": "Простая и удобная документация для Вас",
   "appearance": {
-    "strict": false,
-    "default": "system"
+    "strict": true,
+    "default": "dark"
   },
   "styling": {
     "latex": false
