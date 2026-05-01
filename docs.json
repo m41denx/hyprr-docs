@@ -41,7 +41,8 @@
             "icon": "cube",
             "pages": [
               "create-server",
-              "control"
+              "control",
+              "modrinth"
             ]
           },
           {
