@@ -62,7 +62,7 @@
                         ]
                       },
                       {
-                        "group": "Сеть & домены",
+                        "group": "Сеть или домены",
                         "icon": "planet-ringed",
                         "expanded": true,
                         "pages": [
@@ -78,20 +78,12 @@
                         "pages": [
                           "plan",
                           "change_plan_and_node",
-                          "startup-command-and-varibls"
+                          "startup-command-and-varibls",
+                          "delete-or-renistall"
                         ]
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "group": "Customization",
-                "hidden": true,
-                "pages": [
-                  "development",
-                  "essentials/settings",
-                  "essentials/navigation"
                 ]
               },
               {
@@ -102,15 +94,6 @@
                   "essentials/code",
                   "essentials/images",
                   "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "AI tools",
-                "hidden": true,
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
                 ]
               }
             ]
