@@ -33,7 +33,14 @@
               "index",
               "q-start",
               "billing",
-              "billing-copied-1"
+              "create-project"
+            ]
+          },
+          {
+            "group": "Minecraft сервера",
+            "icon": "cube",
+            "pages": [
+              "create-server"
             ]
           },
           {
