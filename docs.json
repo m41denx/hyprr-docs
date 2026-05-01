@@ -25,6 +25,8 @@
     "languages": [
       {
         "language": "ru",
+        "default": true,
+        "hidden": true,
         "tabs": [
           {
             "tab": "Документация",
