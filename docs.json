@@ -114,6 +114,11 @@
                 ]
               },
               {
+                "group": "Приложения",
+                "icon": "code",
+                "pages": []
+              },
+              {
                 "group": "Аккаунт",
                 "icon": "user",
                 "expanded": true,
