@@ -122,7 +122,8 @@
                     "group": "Настройки Git",
                     "icon": "code-merge",
                     "pages": [
-                      "how-to-get-tocken"
+                      "how-to-get-tocken",
+                      "cooming-soon"
                     ]
                   }
                 ]
