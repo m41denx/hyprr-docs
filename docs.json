@@ -125,6 +125,42 @@
                       "how-to-get-tocken",
                       "cooming-soon"
                     ]
+                  },
+                  {
+                    "group": "Управление сервером",
+                    "icon": "server",
+                    "pages": [
+                      "control-app",
+                      "console-and-control-app",
+                      {
+                        "group": "Файловый менеджер",
+                        "icon": "folder",
+                        "expanded": true,
+                        "pages": [
+                          "file-manager-app",
+                          "backup-app",
+                          "s-ftp-app"
+                        ]
+                      },
+                      {
+                        "group": "Сеть или домены",
+                        "icon": "planet-ringed",
+                        "expanded": true,
+                        "pages": [
+                          "network-app",
+                          "domain-app"
+                        ]
+                      },
+                      {
+                        "group": "Настройки",
+                        "icon": "gear-complex",
+                        "expanded": true,
+                        "pages": [
+                          "plan-app",
+                          "delete-or-renistall-app"
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
