@@ -91,7 +91,7 @@
                 "group": "Базы данных",
                 "icon": "database",
                 "pages": [
-                  "create-app",
+                  "create-db",
                   {
                     "group": "Управление БД",
                     "icon": "server",
@@ -116,7 +116,9 @@
               {
                 "group": "Приложения",
                 "icon": "code",
-                "pages": []
+                "pages": [
+                  "create-app"
+                ]
               },
               {
                 "group": "Аккаунт",
@@ -127,7 +129,8 @@
                   "referal",
                   "acl",
                   "domain-hyprr",
-                  "custom-domain"
+                  "custom-domain",
+                  "razrabotanno"
                 ]
               },
               {
