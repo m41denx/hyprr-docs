@@ -117,7 +117,14 @@
                 "group": "Приложения",
                 "icon": "code",
                 "pages": [
-                  "create-app"
+                  "create-app",
+                  {
+                    "group": "Настройки Git",
+                    "icon": "code-merge",
+                    "pages": [
+                      "how-to-get-tocken"
+                    ]
+                  }
                 ]
               },
               {
