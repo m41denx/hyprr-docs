@@ -124,7 +124,8 @@
                 "expanded": true,
                 "pages": [
                   "how-to-add-oauth-apps",
-                  "referal"
+                  "referal",
+                  "acl"
                 ]
               },
               {
