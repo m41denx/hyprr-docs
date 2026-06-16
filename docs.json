@@ -176,16 +176,6 @@
                   "custom-domain",
                   "razrabotanno"
                 ]
-              },
-              {
-                "group": "Writing content",
-                "hidden": true,
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
               }
             ]
           }
